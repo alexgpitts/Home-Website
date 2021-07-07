@@ -71,7 +71,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 500px;
+    max-width: 500px;
 }
 
 .description{
@@ -92,6 +92,16 @@ figcaption{
 }
 
 @media screen and (max-width: 700px) {
+    .head{
+        padding-bottom: 0;
+    }
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        max-width: 500px;
+    }
     .links{   
         text-align: center;
         flex-direction: column;
@@ -110,5 +120,6 @@ footer{
     max-width: 600px;
     border-top:1px solid rgb(217, 217, 217);
     padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
 }
