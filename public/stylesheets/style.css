@@ -1,0 +1,114 @@
+html, body, header, .head, main, h1{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: rgb(235, 235, 235);
+    background-color: rgb(36, 36, 36);
+}
+
+header{
+    background-color: rgb(36, 36, 36);
+    color:rgb(235, 235, 235);
+    
+} 
+
+.head{
+    padding: 30px;
+    
+    text-align: center;
+}
+
+.links{
+    max-width: 900px;
+    margin: auto;
+    Display: flex;   
+    Flex-direction: row;
+}
+
+.links a{
+    padding: 20px;
+}
+
+main{
+    margin:0;
+    padding:0;
+    background-color: rgb(241, 241, 241);
+}
+
+.about{
+    color:rgb(34, 34, 34);
+    padding-left: 10%;
+    padding-right: 10%;
+
+    max-width: 800px; 
+    margin: auto;
+    
+}
+
+.aboutme{
+    text-align: center;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s; 
+}
+
+a:hover{
+    background-color: grey;
+    transform: translateY(-5px);
+    color: white;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+}
+
+.description{
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+#education{
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+figcaption{
+    padding-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .links{   
+        text-align: center;
+        flex-direction: column;
+        font-size: large;
+    }    
+    .footer{
+        font-size: medium;
+    }
+    .about{
+        font-size: large;
+    }
+}
+
+footer{
+    margin:auto;
+    max-width: 600px;
+    border-top:1px solid rgb(217, 217, 217);
+    padding-top: 10px;
+    text-align: center;
+}
