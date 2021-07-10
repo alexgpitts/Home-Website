@@ -33,6 +33,12 @@ app.get("/assignments", (req, res) => {
   res.render("assignments", { title: "Assignments" });
 });
 
+app.get("/LBCC", (req, res) => {
+  res.render("LBCC", { title: "LBCC Assignments" });
+});
+
+
+
 
 /**
 * Server Activation

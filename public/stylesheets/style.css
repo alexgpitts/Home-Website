@@ -28,10 +28,12 @@ header{
     margin: auto;
     Display: flex;   
     Flex-direction: row;
+    
 }
 
-.links a{
+.button{
     padding: 20px;
+    
 }
 
 main{
@@ -55,13 +57,13 @@ main{
     padding-top: 10px;
 }
 
-a{
+.button{
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: 0.3s; 
 }
 
-a:hover{
+.button:hover{
     background-color: grey;
     transform: translateY(-5px);
     color: white;
@@ -123,4 +125,62 @@ footer{
     padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.foot{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s; 
+    padding: 5px;
+}
+
+.Proj{
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    transition: 0.3s; 
+    
+}
+
+.Proj:hover{
+    transform: translateY(-5px);
+}
+.foot:hover{
+    background-color: grey;
+    transform: translateY(-5px);
+    color: white;
+}
+
+.assignments{
+    color: black;
+    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.assignments_container{
+    color: black;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.home{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s; 
+}
+
+#website{
+    padding:0;
+    width: 90%;
+    max-width: 500px;
+    
+    background-image: url("/images/Website.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
