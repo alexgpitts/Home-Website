@@ -37,6 +37,10 @@ app.get("/LBCC", (req, res) => {
   res.render("LBCC", { title: "LBCC Assignments" });
 });
 
+app.get("/OSU", (req, res) => {
+  res.render("OSU", { title: "OSU Assignments" });
+});
+
 app.get("/LBCC/Jupiter", (req, res) => {
   res.render("Jupiter", { title: "LBCC Mass Of Jupiter" });
 });
