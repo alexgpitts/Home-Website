@@ -45,6 +45,12 @@ app.get("/LBCC/Jupiter", (req, res) => {
   res.render("Jupiter", { title: "LBCC Mass Of Jupiter" });
 });
 
+app.get("/OSU/Smallsh", (req, res) => {
+  res.render("smallsh", { title: "Small Shell" });
+});
+
+
+
 
 
 

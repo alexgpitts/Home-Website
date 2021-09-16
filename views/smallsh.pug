@@ -1,0 +1,29 @@
+extends layout
+
+block layout-content
+  
+  header
+    div.head
+      h1 
+        a(href="/..").home Alex Pitts
+    div.links
+      a(href="/assignments").button Assignments
+      a(href="https://github.com/alexgpitts", target="_blank").button GitHub
+      a(href="https://www.youtube.com/channel/UCcKKS_xiZP7_-riaaGBYG9Q",target="_blank").button YouTube
+      a(href="https://photos.app.goo.gl/7oV9w3SNPeDvL6KG6", target="_blank").button Photo Album
+      
+  main
+    div.about
+        h1.aboutme Small Shell Assignment (CS 344)
+        p.description This project asked us to make a basic shell that could be launched within bash. The Shell used forks and exec to preform bash commands. The shell can also redirect standard in and out to create and read files. 
+        p.description Header File:
+            script(src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Falexgpitts%2FCS344-Project3-smallsh-Portfolio-Assignment%2Fblob%2Fmain%2Fsmallsh.h&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on")
+        p.description Main Code:
+            script(src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Falexgpitts%2FCS344-Project3-smallsh-Portfolio-Assignment%2Fblob%2Fmain%2Fsmallsh.c&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on")    
+      
+
+
+  
+  footer  
+    a(href="mailto: alexgpitts@gmail.com").foot contact me
+      
