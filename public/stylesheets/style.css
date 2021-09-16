@@ -88,6 +88,7 @@ main{
 iframe{
     padding-top: 10px;
     padding-bottom: 20px;
+    height: 700px;
 }
 
 img{
@@ -158,6 +159,12 @@ figcaption{
         padding-bottom: 20px;
         
     }
+    iframe{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        height: 500px;
+    }
+    
 }
 
 footer{
