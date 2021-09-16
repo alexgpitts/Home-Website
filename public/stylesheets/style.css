@@ -67,6 +67,22 @@ main{
     background-color: grey;
     transform: translateY(-5px);
     color: white;
+    
+}
+
+.button1{
+    text-decoration: none;
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    transition: 0.3s; 
+    padding: 10px;
+    
+}
+
+.button1:hover{
+    background-color: grey;
+    transform: translateY(-5px);
+    color: white;
 }
 
 img{
