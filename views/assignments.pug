@@ -11,14 +11,26 @@ block layout-content
       //- a(href="https://www.youtube.com/channel/UCcKKS_xiZP7_-riaaGBYG9Q",target="_blank").button YouTube
       a(href="https://www.flickr.com/people/193818387@N02/", target="_blank").button Flickr
       a(href="../images/resume.pdf", target="_blank").button Resume
-      
+       
   main
     div.assignments
-      h1 Assignments
+      h1 OSU Projects
+      p Some of my Projects from Oregon State University
       div.assignments_container
-        a(href="/LBCC").Proj LBCC Projects
-        a(href="/OSU").Proj OSU Projects
-        //- a(href="").Proj proj1
+        a(href="/OSU/smallsh").Proj
+            img(src="./images/smallsh.png")#website
+            figcaption Small Shell
+      h1 LBCC Projects
+      p Some of my Projects from Linn Benton Community College
+      div.assignments_container
+        a(href="https://alexpitts.herokuapp.com/", target="_blank").Proj
+            img(src="./images/Website.jpg")#website
+            figcaption Home Website - CS290
+            //- #website.Proj CS 290 Website
+        
+        a(href="/LBCC/Jupiter").Proj 
+            img(src="./images/Jupiter.jpg")#website
+            figcaption Physics 212 (Mass Of Jupiter)
         //- a(href="").Proj proj2
         //- a(href="").Proj proj3
         //- a(href="").Proj proj4
@@ -27,4 +39,3 @@ block layout-content
   footer 
     a(href="mailto: alexgpitts@gmail.com").foot contact me
       
-
