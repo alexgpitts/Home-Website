@@ -29,8 +29,8 @@ app.get("/", (req, res) => {
     res.render("index", { title: "Home" });
 });
 
-app.get("/assignments", (req, res) => {
-  res.render("assignments", { title: "Assignments" });
+app.get("/Projects", (req, res) => {
+  res.render("projects", { title: "Projects" });
 });
 
 // app.get("/LBCC", (req, res) => {
@@ -47,6 +47,11 @@ app.get("/LBCC/Jupiter", (req, res) => {
 
 app.get("/OSU/Smallsh", (req, res) => {
   res.render("smallsh", { title: "Small Shell" });
+});
+
+
+app.get("/OSU/Capstone", (req, res) => {
+  res.render("capstone", { title: "Capstone Project" });
 });
 
 

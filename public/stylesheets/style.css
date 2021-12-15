@@ -184,6 +184,7 @@ footer{
 }
 
 .Proj{
+    height: auto;
     display:inline-block;
     text-decoration: none;
     color: black;
@@ -232,7 +233,6 @@ footer{
     padding:0;
     width: 90%;
     max-width: 500px;
-    
     background-image: url("/images/Website.png");
     background-position: center;
     background-repeat: no-repeat;
